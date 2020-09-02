@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<title>Other</title>
+
+{% extends "basicApp/base.html" %}
+         {% block body_block %}
+
+             <h1>This is Other</h1>
+
+             <a href="{% url 'basic_appTag:relative' %}">Click Here to go Relative page</a>
+             <p> </p>
+             <a href="{% url 'admin:index' %}">Go to Admin</a>
+             <p> </p>
+             <a href="{% url 'index' %}">Go to Home(index)</a>
+
+         {% endblock %}
