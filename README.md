@@ -1,4 +1,4 @@
-# Tamplates_Project
+# Tamplates_Project DJANGO 
 - Navigation Bar (bootstrap)
 - Relative URL
 - Template Inheritance 
